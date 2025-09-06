@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description: "Alex's Website",
   icons: {
     icon: "/favicon.ico",        // standard browsers
-    shortcut: "app/favicon.ico",    // legacy support
+    shortcut: "/favicon.ico",    // legacy support
       },
 };
 

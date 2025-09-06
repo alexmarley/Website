@@ -1,4 +1,9 @@
+import { getSortedPostsData, allTags } from "@/lib/blog-data";
+import BlogSection from "@/app/BlogSection";
+
 export default function Home() {
+  const blogPosts = getSortedPostsData();
+
   return (
     <main className="mx-auto max-w-2xl px-6 py-16 leading-relaxed">
       <header className="space-y-2">
@@ -52,26 +57,25 @@ export default function Home() {
           Cometeer
           </a>
         </p>
-
-
       </section>
 
       <section className="mt-10 space-y-4">
         <h2 className="text-lg font-medium">Contact</h2>
-        <ul>
-          Email: amarley99 {"[@]"} gmail.com
-        <li>
+        <ul className="list-disc pl-5 space-y-2">
+          <li>Email: amarley99 {"[@]"} gmail.com</li>
+          <li>
             Twitter: <a className="underline" href="https://x.com/thealexmarley">
             twitter.com/thealexmarley
             </a>
-        </li>
-        <li>
+          </li>
+          <li>
             LinkedIn: <a className="underline" href="https://www.linkedin.com/in/alex-marley">
             linkedin.com/in/alex-marley
             </a>
-        </li>
+          </li>
         </ul>
       </section>
+
       <section className="mt-10 space-y-4">
         <h2 className="text-lg font-medium">Writing</h2>
         <ul className="list-disc pl-5 space-y-2">
@@ -79,6 +83,8 @@ export default function Home() {
           <li>Working on a thesis about compute clusters</li>
         </ul>
       </section>
+
+      <BlogSection posts={blogPosts} tags={allTags} />
 
       <footer className="mt-16 text-sm text-neutral-500">
         © {new Date().getFullYear()} Alex Marley
