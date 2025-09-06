@@ -42,7 +42,7 @@ export default function Home() {
           >
           Dorm Room Fund
           </a>
-           | {" "} First Controls Engineer @ {" "}
+           {" "} |{" "} First Controls Engineer @ {" "}
            <a
             href="https://cometeer.com"
             target="_blank"
