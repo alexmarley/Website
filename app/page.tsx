@@ -106,7 +106,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="underline"
             >
-              Meet BostInno's 25 Under 25 for 2022 - Boston Business Journal
+              Meet BostInno&apos;s 25 Under 25 for 2022 - Boston Business Journal
             </a>
           </li>
         </ul>
