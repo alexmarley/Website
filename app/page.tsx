@@ -77,10 +77,38 @@ export default function Home() {
       </section>
 
       <section className="mt-10 space-y-4">
-        <h2 className="text-lg font-medium">Writing</h2>
+        <h2 className="text-lg font-medium">Media</h2>
         <ul className="list-disc pl-5 space-y-2">
-          <li>Speaking at an AI Infra meetup in NYC</li>
-          <li>Working on a thesis about compute clusters</li>
+          <li>
+            <a 
+              href="https://upfront.com/thoughts/meet-alex-marley-our-newest-member-of-the-investment-team" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="underline"
+            >
+              Meet Alex Marley - Upfront Ventures
+            </a>
+          </li>
+          <li>
+            <a 
+              href="https://news.northeastern.edu/2023/02/03/schwarzman-scholar-china-experience/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="underline"
+            >
+              China experience will provide Schwarzman scholar an international perspective - Northeastern University
+            </a>
+          </li>
+          <li>
+            <a 
+              href="https://www.bizjournals.com/boston/inno/stories/awards/2022/11/15/meet-bostinno-s-25-under-25-for-2022.html" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="underline"
+            >
+              Meet BostInno's 25 Under 25 for 2022 - Boston Business Journal
+            </a>
+          </li>
         </ul>
       </section>
 
