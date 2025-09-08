@@ -1,5 +1,5 @@
 import { getSortedPostsData, allTags } from "@/lib/blog-data";
-import BlogSection from "@/app/BlogSection";
+import BlogSection from "./BlogSection";
 
 export default function Home() {
   const blogPosts = getSortedPostsData();
