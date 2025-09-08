@@ -52,13 +52,11 @@ export function getSortedPostsData(): BlogPost[] {
       };
     });
 
-  // Sort posts by date
+  // Sort posts by date (newest first)
   return allPostsData.sort((a, b) => {
-    if (a.date < b.date) {
-      return 1;
-    } else {
-      return -1;
-    }
+    const dateA = new Date(a.date);
+    const dateB = new Date(b.date);
+    return dateB.getTime() - dateA.getTime();
   });
 }
 
