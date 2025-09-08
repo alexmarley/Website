@@ -1,7 +1,7 @@
 ---
 title: "Core Beliefs – Empowering Dreamers"
-date: "January 15, 2025"
-tags: ["Personal", "Philosophy"]
+date: "September 4, 2025"
+tags: ["Personal", "Philosophy", "Core Beliefs"]
 excerpt: "A reflection on how society shapes dreamers into realists, and why we should empower those who dare to dream beyond the status quo."
 ---
 

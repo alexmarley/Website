@@ -20,7 +20,9 @@ export const allTags = [
   "All",
   "Personal",
   "Career",
-  "Philosophy"
+  "Philosophy",
+  "Travel",
+  "Core Beliefs"
 ];
 
 export function getSortedPostsData(): BlogPost[] {

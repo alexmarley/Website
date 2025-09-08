@@ -28,7 +28,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         </div>
         <div className="max-w-none">
           <div 
-            className="space-y-4 text-lg leading-relaxed"
+            className="space-y-4 text-lg leading-tight prose-p:leading-tight prose-p:mb-4"
             dangerouslySetInnerHTML={{ 
               __html: post.contentHtml || ''
             }}
