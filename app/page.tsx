@@ -119,6 +119,26 @@ export default function Home() {
               Meet BostInno&apos;s 25 Under 25 for 2022 - Boston Business Journal
             </a>
           </li>
+          <li>
+            <a 
+              href="https://dormroomfund.medium.com/part-2-becoming-a-gen-z-investor-e9f036dc55ac" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="underline"
+            >
+              Part II: Becoming a Gen Z Investor - Dorm Room Fund
+            </a>
+          </li>
+          <li>
+            <a 
+              href="https://dormroomfund.medium.com/part-i-a-gen-zs-journey-to-vc-dbdc2fad0591" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="underline"
+            >
+              Part I: A Gen Z&apos;s Journey to VC - Dorm Room Fund
+            </a>
+          </li>
         </ul>
       </section>
 
