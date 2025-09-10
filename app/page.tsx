@@ -79,66 +79,72 @@ export default function Home() {
       <section className="mt-10 space-y-4">
         <h2 className="text-lg font-medium">Media</h2>
         <ul className="list-disc pl-5 space-y-2">
-          <li>
-            <a 
-              href="https://upfront.com/thoughts/meet-alex-marley-our-newest-member-of-the-investment-team" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="underline"
-            >
-              Meet Alex Marley - Upfront Ventures
-            </a>
-          </li>
-          <li>
-            <a 
-              href="https://www.luxcapital.com/content/driving-through-china" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="underline"
-            >
-              Driving through China - Lux Capital
-            </a>
-          </li>
-          <li>
-            <a 
-              href="https://news.northeastern.edu/2023/02/03/schwarzman-scholar-china-experience/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="underline"
-            >
-              China experience will provide Schwarzman scholar an international perspective - Northeastern University
-            </a>
-          </li>
-          <li>
-            <a 
-              href="https://www.bizjournals.com/boston/inno/stories/awards/2022/11/15/meet-bostinno-s-25-under-25-for-2022.html" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="underline"
-            >
-              Meet BostInno&apos;s 25 Under 25 for 2022 - Boston Business Journal
-            </a>
-          </li>
-          <li>
-            <a 
-              href="https://dormroomfund.medium.com/part-2-becoming-a-gen-z-investor-e9f036dc55ac" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="underline"
-            >
-              Part II: Becoming a Gen Z Investor - Dorm Room Fund
-            </a>
-          </li>
-          <li>
-            <a 
-              href="https://dormroomfund.medium.com/part-i-a-gen-zs-journey-to-vc-dbdc2fad0591" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="underline"
-            >
-              Part I: A Gen Z&apos;s Journey to VC - Dorm Room Fund
-            </a>
-          </li>
+                 <li>
+                   <a
+                     href="https://upfront.com/thoughts/meet-alex-marley-our-newest-member-of-the-investment-team"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     className="underline"
+                   >
+                     Meet Alex Marley
+                   </a>
+                   <span> - Upfront Ventures</span>
+                 </li>
+                 <li>
+                   <a
+                     href="https://www.luxcapital.com/content/driving-through-china"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     className="underline"
+                   >
+                     Driving through China
+                   </a>
+                   <span> - Lux Capital</span>
+                 </li>
+                 <li>
+                   <a
+                     href="https://news.northeastern.edu/2023/02/03/schwarzman-scholar-china-experience/"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     className="underline"
+                   >
+                     China experience will provide Schwarzman scholar an international perspective
+                   </a>
+                   <span> - Northeastern University</span>
+                 </li>
+                 <li>
+                   <a
+                     href="https://www.bizjournals.com/boston/inno/stories/awards/2022/11/15/meet-bostinno-s-25-under-25-for-2022.html"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     className="underline"
+                   >
+                     Meet BostInno&apos;s 25 Under 25 for 2022
+                   </a>
+                   <span> - Boston Business Journal</span>
+                 </li>
+                 <li>
+                   <a
+                     href="https://dormroomfund.medium.com/part-2-becoming-a-gen-z-investor-e9f036dc55ac"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     className="underline"
+                   >
+                     Part II: Becoming a Gen Z Investor
+                   </a>
+                   <span> - Dorm Room Fund</span>
+                 </li>
+                 <li>
+                   <a
+                     href="https://dormroomfund.medium.com/part-i-a-gen-zs-journey-to-vc-dbdc2fad0591"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     className="underline"
+                   >
+                     Part I: A Gen Z&apos;s Journey to VC
+                   </a>
+                   <span> - Dorm Room Fund</span>
+                 </li>
         </ul>
       </section>
 
