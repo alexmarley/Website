@@ -17,7 +17,7 @@ export default function Home() {
       <section className="mt-10 space-y-4">
         <h2 className="text-lg font-medium">About</h2>
         <p>
-          Perpetually Curious. Exploring the future of Physical AI, Infrastructure, and Deep Tech. <br />
+          Exploring the future of Physical AI, Infrastructure, and Deep Tech. <br />
           Investor @{" "}
           <a
             href="https://upfront.com"
@@ -87,6 +87,16 @@ export default function Home() {
               className="underline"
             >
               Meet Alex Marley - Upfront Ventures
+            </a>
+          </li>
+          <li>
+            <a 
+              href="https://www.luxcapital.com/content/driving-through-china" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="underline"
+            >
+              Driving through China - Lux Capital
             </a>
           </li>
           <li>
