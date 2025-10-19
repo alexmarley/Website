@@ -35,7 +35,7 @@ export default function Portfolio() {
       <header className="space-y-2 mb-10">
         <h1 className="text-4xl font-semibold tracking-tight">Portfolio</h1>
         <p className="text-sm text-neutral-500">
-          I'll continue to update this page as I make more investments. I've listed the companies in reverse chronological order with my most recent investments at the top.
+          I&apos;ll continue to update this page as I make more investments. I&apos;ve listed the companies in reverse chronological order with my most recent investments at the top.
         </p>
         <p className="text-sm text-neutral-500">
           This was last updated on October 19, 2025.
