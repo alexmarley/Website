@@ -57,12 +57,21 @@ export default function Home() {
           Cometeer
           </a>
         </p>
+        <p>
+          Here's an overview of the startups I've worked on as an investor to date:{" "}
+          <a
+            href="/portfolio"
+            className="underline"
+          >
+            My Portfolio
+          </a>
+        </p>
       </section>
 
       <section className="mt-10 space-y-4">
         <h2 className="text-lg font-medium">Contact</h2>
         <ul className="list-disc pl-5 space-y-2">
-          <li>Work Email: alex {"[AT]"} upfront.com</li>
+          <li>Work Email: alex {"[@]"} upfront.com</li>
           <li>
             Twitter: <a className="underline" href="https://x.com/thealexmarley">
             twitter.com/thealexmarley
