@@ -57,7 +57,7 @@ export default function Home() {
           Cometeer
           </a>
         </p>
-        <p>
+        {/* <p>
           Here's an overview of the startups I've worked on as an investor to date:{" "}
           <a
             href="/portfolio"
@@ -65,7 +65,7 @@ export default function Home() {
           >
             My Portfolio
           </a>
-        </p>
+        </p> */}
       </section>
 
       <section className="mt-10 space-y-4">
